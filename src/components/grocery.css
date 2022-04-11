@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 18px;
+}
+
+body{
+    margin: 10px;
+}
+
+/* .container div{
+    border: 1px solid #000;
+    padding: 15px;
+} */
+
+.cont{
+    border: 1px solid rgb(183, 178, 178);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2,h4{
+    text-align: left;
+}
+
+h2{
+    margin-bottom: 18px;
+
+}
+
+button{
+    color: #fff;
+    background-color: #006fd0;
+    border: 0px;
+    width: 80%;
+    padding: 8px;
+    font-weight: bold;
+   
+}
+
+#price{
+    display: flex;
+    /* border: 2px solid blue; */
+    
+}
+h4{
+    margin-right: 30px ;
+    
+}
+
+p{
+    padding-top: 6px;
+    margin-right: 10px;
+}
+

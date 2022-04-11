@@ -1,5 +1,14 @@
 // reusable card component
+
+import GroceryDetails from './Grocerydetails';
+// import data from '../data.json'
+
+
 const GroceryItem = () => {
-  return <></>;
-};
+  return
+   <>
+    {/* <GroceryDetails {...data} /> */}
+  </>
+}
+
 export default GroceryItem;
